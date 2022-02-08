@@ -1,12 +1,14 @@
 import React from 'react';
 import { View,Text,StyleSheet } from 'react-native';
 
-const Goalitem = props =>{
-    return<View style={styles.listite}>
-    <Text >{props.title}</Text>
-  </View>>
+const GoalItem = props =>{
+    return (
+    <View style={styles.listite}>
+    <Text>{props.title}</Text>
+  </View>
+    );
+}
 
-};
 
 const styles=StyleSheet.create({
     listite: {
@@ -18,4 +20,4 @@ const styles=StyleSheet.create({
       }
 })
 
-export default Goalitem;
+export default GoalItem;

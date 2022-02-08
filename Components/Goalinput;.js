@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import React from 'react';
+
 import { View, TextInput, StyleSheet, Button } from 'react-native';
+import { useState } from 'react';
+const GoalInput = props => {
 
-const Goalinput = props => {
-
+  
     const [enteredGoal, setenterGoaltText] = useState('');
 
     const GoalinputHandler = enterText => {
@@ -31,4 +33,4 @@ const styles = StyleSheet.create({
 
 })
 
-export default Goalinput;
+export default GoalInput;
